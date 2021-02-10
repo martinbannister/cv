@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Martin Bannister provides web development and programming services for people">
+    <title>Martin's Personal Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <table cellspacing=20>
+        <tr>
+            <td><img id="profilePhoto" src="images/martin.jpg" alt="Photo of Martin Bannister"></td>
+            <td>
+                <h1>Martin Bannister</h1>
+                <p><em>Programmer & Web Developer</em></p>
+                <p>I am an <strong>HTML, CSS and Javascript</strong> developer. I have experience in writing <strong><a
+                            href="https://developers.google.com/apps-script">Google Apps
+                            Script</a></strong> web applications and
+                    add-ins as well as some experience with <strong>PHP</strong> and <strong>XML</strong>.
+                    I have been a hobby ceramicist for around <span id="potteryYears"></span> years and make my own pots
+                    and
+                    sculptures at
+                    home in my shed. <br>
+                    I love animals, am a strong supporter of good environmental practices and actively work at reducing
+                    my families
+                    plastic waste.
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h3>Education</h3>
+    <ul>
+        <li>A Level Computing</li>
+        <li>Short course in Intermediate SQL</li>
+        <li>Visual Basic Intermediate</li>
+        <li>Visual Basic Advanced</li>
+        <li>Google Apps Script</li>
+        <li>Web developer bootcamp (Udemy - Colt Steele)</li>
+        <li>The Complete 2021 Web Developer Bootcamp (Udemy - Angel Yu)</li>
+    </ul>
+
+    <hr>
+
+    <h3>Work Experience</h3>
+    <table>
+        <thead>
+            <th>Dates</th>
+            <th>Work</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2016-Present</td>
+                <td>Driving Instructor</td>
+            </tr>
+            <tr>
+                <td>2014-2016</td>
+                <td>IT Support</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h3>Skills</h3>
+    <table cellspacing="10">
+        <tr>
+            <td>
+                Visual Basic
+            </td>
+            <td>
+                &#x2B50;&#x2B50;&#x2B50;&#x2B50;
+            </td>
+            <td>
+                HTML
+            </td>
+            <td>
+                &#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Google Apps Script
+            </td>
+            <td>
+                &#x2B50;&#x2B50;&#x2B50;&#x2B50;
+            </td>
+
+            <td>
+                CSS
+            </td>
+            <td>
+                &#x2B50;&#x2B50;&#x2B50;
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Javascript
+            </td>
+            <td>
+                &#x2B50;&#x2B50;&#x2B50;
+            </td>
+
+            <td>
+                XML
+            </td>
+            <td>
+                &#x2B50;&#x2B50;&#x2B50;
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <a href="hobbies.html">My Hobbies</a>
+    <a href="contact.html">Contact Me</a>
+
+    <script>
+        let d = new Date();
+        let y = d.getFullYear();
+        let yrs = y - 2001;
+        document.getElementById('potteryYears').innerHTML = yrs;
+    </script>
+</body>
+
+</html>

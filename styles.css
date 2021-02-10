@@ -1,0 +1,30 @@
+:root {
+    --middle-blue-green: #79d9beff;
+    --medium-purple: #8d78d9ff;
+    --shimmering-blush: #d97893ff;
+    --yellow-green-crayola: #c4d978ff;
+}
+
+body {
+    background-color: var(--middle-blue-green);
+}
+
+#profilePhoto {
+    border-radius: 50%;
+    width: 150px;
+}
+
+h1 {
+    color: var(--medium-purple);
+}
+
+h3 {
+    color: var(--medium-purple);
+}
+
+hr {
+    border-color: white;
+    border-style: dotted none none none;
+    border-width: 8px;
+    width: 10%;
+}
